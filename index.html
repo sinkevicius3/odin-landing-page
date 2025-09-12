@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Landing page</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
+  <head>
+    <meta charset="UTF-8">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="styles.css">
 
-    <body>
-        <div class="section1">
-            <div class="left_side1">
-                <div class="upper1_1">
-                    <h1>Header logo</h1>
-                </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
 
-                <div class="lower1_1">
-                    <h1>This website is awesome.</h1>
-                    <p>This website has some subtext that goes here under the main title.
-                        It's a smaller font and the color is lower contras
-                    </p>
-                    <button type="button">Sign up</button>
-                </div>
-            </div>
-            <div class="right_side">
-                <div class="upper1_2">
-                    <h1>header link one</h1>
-                    <h1>header link two</h1>
-                    <h1>header link three</h1>
-                </div>
-                <div class="lower1_2">
-                    <img src=" " alt="this is a placeholder for an image">
-                </div>
+  <body>
 
-            </div>
+    <div class="section1">
+      <div class="section1-contents">
+
+        <div class="header">
+          <div class="header-logo">
+            <p>Header Logo</p>
+          </div>
+          <div class="header-links">
+            <p>header link one</p>
+            <p>header link two</p>
+            <p>header link three</p>
+          </div>
         </div>
+        
+        <div class="hero">
+          <div class="hero-left-side">
+            <p class="hero-main-paragraph">This website is awesome</p>
+            <p class="hero-secondary-paragraph">This website has some subtext that goes here 
+              under the main title. It's a smaller font and the color is lower contrast
+            </p>
+            <button class="hero-button">Sign up</button>
+          </div>
+          <div class="hero-right-side">
+            <img class="hero-image" 
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAS4AAACnCAMAAACYVkHVAAABYlBMVEX///8Mc7jmUSfnoyjs7e/yZy7yvyYwqt0AAAAGBwkTExMAbrbnoSLstFbwmoV7rNPlShnsXSj+//vt8Pcikcw7OzsaGhrpWCjstScahMQuqd3xYiP59vPxWxPxuwsAbLXojnn2oYL71cnydT739/r225EzNDP246zox5Dc5evm5ubonxjs397kRgXOzs6FhYVSUlJwcXPq9vnqxL387ebnYToMeLnywz/pzqjkqUOauNTq085fX18mJiaxsbGcnJ6/v7+foKBHR0f78eDvxIHJycnmtF/y1qf778z54Nf03rboaUfpqzvrsCjzt6jpnY2Dxufq2sH57MT89t7nr1vmt230zmPp2Lr20nb54aXp5tvyyFHG3uq60+rte1xJkcbshWqhw948i8L0wbPA4/P5t6Ga0+n0f1JduOLkOACCrtXP6/jowYZnoND014b4waqIyur1j2bogWul1+3zh2DqclNyTre4AAAUm0lEQVR4nO2di1fTyhbGg63S0gLlIUopFLEitPKwAoqCLxBFOSB48Qkq4Pt19Hj5/+9MMmlm75mdTCox9dx+66x1oKaZ5OfMZH+zd0bLauoPVpkraVnJMlAy7utqTJVTXFOWtZACmor7whpT5VQ6nXZwtUlq4tKriSuUVFzOYLwY94U1pmq4JgWukze4pm7GfWGNqRoul1fqZtyX1MjycFk3Ba87cV9TA0vCZV23eaXTkzFfUwNLxmXdcnj1NXlRArisGzav1Gg51mtqRCUdTQJc1pTD62TTAyH19S1y9bm4BD4n/ErdLsV9fQ0m1xym3TC1rY9rUcSq03FfX4PJAeVINUFtqbivr8EUgKst7utrMOHlGrSA0+xdUFOSLl5nMdcUVNzX11RTTTXVVFNNxazuiBT3fUWklfZItBL3fUWk9ko2AlXa476viLSdTUSg7Hbc9xWRlqPBtRz3fUWksUoUuCpjcd9XRLofDa77cd9XRHoSDa6tuO8rIt0Lget0sP4SuO7FfV8Racl4qs8mTgTrtDh2Ke77ikiFEE/GELgKcd9XROomulJFVXZILxmXGIyJf6sJsta0tFbGNDqn1wsV11qcdzS5ODo6uniL/3iL/9hXdv7vabFkTXkHWaXb9oeTVtL+/w2/k7frRmPlSY9G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"
+              alt="this is a placeholder for an image">
+          </div>
+        </div>
+        
+      </div>
+    </div>
 
-    </body>
+  </body>
 </html>
