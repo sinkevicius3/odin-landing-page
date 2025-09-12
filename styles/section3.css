@@ -15,7 +15,7 @@
 .quote-text{
   font-size: 36px;
   font-style: italic;
-  weight: 300;
+  font-weight: 300;
   display: flex;
   justify-content: center;
   margin: 0px;
