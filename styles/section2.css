@@ -1,13 +1,13 @@
 .section2 {
   background-color: white;
   flex: 5;
-  margin: 0px;
+  margin: 0%;
 }
 
 .section2-contents{
   color: white;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .main-text{
@@ -21,31 +21,32 @@
 .picture-frames{
   display: flex;
   justify-content: center;
-  gap: 50px;
+  gap: 6%;
   text-align: center;
 }
 
 .item-frame{
-  width: 140px;
+  width: 16%;
   color: #1f2937;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 150%;
 }
 
 .item-frame p{
-  margin: 0px;
-  margin-top: 6px;
+  margin: 0%;
+  margin-top: 6%;
   text-align: center;
 }
 
 .frame{
-  height: 140px;
+  height: 100%;
   width: 100%;
   border-color: #3882F6;
   border-style: solid;
-  border-width: 6x;
-  border-radius: 10px;
+  border-width: 2%;
+  border-radius: 4%;
 }
 
 .section2-image {
