@@ -1,24 +1,29 @@
 .section1 {
+  flex: 5;
   background-color: #1F2937;
-  height: 500px;
-  margin: 0px;
+  margin: 0%;
 }
 
 .section1-contents{
   color: white;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .header{
-  height: 40px;
+  margin-top: 2%;
+  height: 2%;
   display: flex;
   align-items: center;
-  margin-bottom: 120px;
+  margin-bottom: 12%;
+}
+
+.header p{
+  margin: 0%;
+  padding: 0%;
 }
 
 .header-logo{
-  margin-top: 30px;
   font-size: 24px;
   color: #F9FAF8;
   font-weight: 700;
@@ -26,12 +31,11 @@
 }
 
 .header-links {
-  margin-top: 20px;
   font-size: 18px;
   color: #E5E7EB;
   display: flex;
   justify-content: right;
-  gap: 30px;
+  gap: 6%;
   flex: 1;
 }
 
@@ -40,7 +44,6 @@
 }
 
 .hero-left-side{
-  height: 225px;
   flex: 1;
 }
 
@@ -48,7 +51,7 @@
   font-size: 48px;
   color: #F9FAF8;
   font-weight: 900;
-  margin: 0px;
+  margin: 0%;
   width: 80%;
 }
 
@@ -56,7 +59,7 @@
   font-size: 18px;
   color: #E5E7EB;
   margin: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 2%;
   width: 80%;
 }
 
@@ -65,17 +68,13 @@
   color: white;
   font-size: 18px;
   font-weight: 700;
-  border-radius: 10px;
+  border-radius: 10%;
   border: none;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 2% 8%;
   cursor: pointer;
 }
 
 .hero-right-side{
-  height: 225px;
   background-color: #878d96;
   flex: 1;
   display: flex;

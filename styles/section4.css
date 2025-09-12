@@ -1,6 +1,6 @@
 .section4{
   background-color: white;
-  height: 300px;
+  flex: 3;
   display: flex;
   justify-content: center;
   align-items: center;
