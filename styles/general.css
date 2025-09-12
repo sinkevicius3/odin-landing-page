@@ -1,0 +1,12 @@
+body{
+  background-color: black;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.page{
+  width: 35%;
+  font-family: 'Roboto', 'Times New Roman';
+
+}
